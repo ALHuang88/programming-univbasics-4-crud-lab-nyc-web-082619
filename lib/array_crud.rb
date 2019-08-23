@@ -1,20 +1,25 @@
-def create_an_empty_array
-  
+def create_an_empty_array 
+  []
 end
 
 def create_an_array
-  
+  ["allen", "zolboo", "jon", "adam"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  ["allen", "zolboo", "jon", "adam"]
+  add_element_to_end_of_array << "lilo"
+  p add_element_to_end_of_array
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  ["allen", "zolboo", "jon", "adam"]
+  add_element_to_start_of_array.unshift("lilo")
+  p add_element_to_start_of_array
 end
 
-def remove_element_from_end_of_array(array)
+def remove_element_from_end_of_array(["allen", "zolboo", "jon", "adam"])
+  remove_element_from_end_of_array.pop
   
 end
 
