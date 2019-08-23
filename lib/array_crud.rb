@@ -23,22 +23,22 @@ def remove_element_from_end_of_array(["allen", "zolboo", "jon", "adam"])
   
 end
 
-def remove_element_from_start_of_array(array)
-  
+def remove_element_from_start_of_array(["allen", "zolboo", "jon", "adam"])
+  remove_element_from_start_of_array.shift
 end
 
-def retrieve_element_from_index(array, index_number)
-  
+def retrieve_element_from_index(["allen", "zolboo", "jon", "adam"], index_number)
+  retrieve_element_from_index.index[0]
 end
 
-def retrieve_first_element_from_array(array)
-  
+def retrieve_first_element_from_array(["allen", "zolboo", "jon", "adam"])
+  retrieve_first_element_from_array[0]
 end
 
-def retrieve_last_element_from_array(array)
-  
+def retrieve_last_element_from_array(["allen", "zolboo", "jon", "adam"])
+  retrieve_last_element_from_array[3]
 end
 
-def update_element_from_index(array, index_number, element)
+def update_element_from_index(["allen", "zolboo", "jon", "adam"], index_number, element)
 
 end
